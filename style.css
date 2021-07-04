@@ -14,7 +14,7 @@ h2 {
 
 .flexible-container {
   display: flex;
-  margin-top: auto;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
