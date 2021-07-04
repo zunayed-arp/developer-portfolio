@@ -14,7 +14,7 @@ h2{
 
 .flexible-container{
 	display: flex;
-	margin: 100px;
+	margin: none;
 }
 .half-width{
 	width: 50%;
@@ -36,6 +36,7 @@ h2{
 }
 
 .top-banner{
+	
 	background-image: url(images/top-banner.png);
 	background-repeat: no-repeat;
 
@@ -59,4 +60,16 @@ h2{
 	padding-left: 20px;
 	border-radius: 10px;
 	box-shadow: 10px 10px 40px gray;
+	border-left: 10px solid;
+}
+
+#web-dev-experience{
+	border-left: 7px solid;
+	border-image: liner-gradient(blue,cyan);
+	border-image-slice: 1;
+}
+#baby-dev-experience{
+	border-left: 7px solid;
+	border-image: liner-gradient(salmon,tomato);
+	border-image-slice: 1;
 }
